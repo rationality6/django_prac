@@ -1,0 +1,17 @@
+{% extends 'vooo/base.html' %}
+{% block content %}
+
+<p>vooo!</p>
+<div class="">
+  {{joining}}
+</div>
+<div>
+  <div class="">
+    <a href="{% url 'polls:index' %}"><button type="button" name="button">polls</button></a>
+  </div>
+  <div class="">
+    <a href="{% url 'blog:post_list' %}"><button type="button" name="button">blog</button></a>
+  </div>
+</div>
+
+{% endblock %}

@@ -7,7 +7,7 @@ def index(request):
     random_numbers = Random_number.objects.all()
     joining = ', '.join([str(i.num) for i in random_numbers])
     context = {'joining': joining}
-    return render(request, 'vooo/index.html', context)
+    return render(request, 'main/index.html', context)
 
 
 def detail(request,foo1):

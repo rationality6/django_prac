@@ -34,9 +34,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_extensions',
-    
+
     'polls.apps.PollsConfig',
-    'vooo.apps.VoooConfig',
+    'main.apps.MainConfig',
     'blog.apps.BlogConfig',
 ]
 

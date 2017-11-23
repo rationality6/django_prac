@@ -5,11 +5,15 @@
 
 {% if form.errors %}
 <p>패스워드가 틀렸어용 다시 입력 해주세용.</p>
+<p>test</p>
+<p>test0030</p>
 {% endif %}
 
 
 <form action="{% url 'login' %}" method="post">
   {% csrf_token %}
+  <p>test</p>
+  <p>test0030</p>
   <table>
     <tr>
       <td>{{ form.username.label_tag }}</td>
